@@ -4,8 +4,6 @@ from email.mime.text import MIMEText
 import smtplib
 import requests
 
-#body = "wait, wait"
-
 extip = requests.get('http://canhazip.com').text
 fromaddr = 'username@email.com'
 toaddrs  = 'username@email.com'
@@ -15,7 +13,6 @@ msg['To'] = toaddrs
 msg['Subject'] = "Subject"
 
 msg.attach(MIMEText(extip, 'plain'))
-#msg = MIMEText(extip)
 
 server = smtplib.SMTP('smtp.email.com',587)
 server.ehlo()
