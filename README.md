@@ -2,7 +2,7 @@
 
 A simple script to trigger email with IP address whenever any user login to laptop/desktop.
 
-## Only for linux based systems
+## Only for Linux based systems
 
 1. Place the sendmail.py file in some folder(eg., /home/user/Documents) in the system.
 2. Make sure to set permission for the sendmail.py to allow executing as program.
