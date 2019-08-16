@@ -1,1 +1,1 @@
-This is a simple script to send mail from command line
+A simple script to trigger email with IP address whenever someone login to laptop/desktop
