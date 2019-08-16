@@ -1,5 +1,6 @@
 A simple script to trigger email with IP address whenever someone login to laptop/desktop
 
+# Applicable to linux based systems
 
 1. Place the sendmail.py file in some directory in your system.
 2. Place the 90-network-ip.sh file in the directory /etc/NetworkManager/dispatcher.d.
